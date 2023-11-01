@@ -75,10 +75,16 @@
       >
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
+        
+
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
               {% render block %}
+
+  
+
+      
             {%- when 'text' -%}
               <p
                 class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
@@ -873,6 +879,24 @@
         {
           "type": "liquid",
           "id": "custom_liquid",
+          "label": "t:sections.custom-liquid.settings.custom_liquid.label",
+          "info": "t:sections.custom-liquid.settings.custom_liquid.info"
+        }
+      ]
+    },
+    {
+      "type": "option",
+      "name": "Option",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.custom-liquid.settings.custom_liquid.label",
+          "info": "t:sections.custom-liquid.settings.custom_liquid.info"
+        },
+        {
+          "type": "text",
+          "id": "title_text",
           "label": "t:sections.custom-liquid.settings.custom_liquid.label",
           "info": "t:sections.custom-liquid.settings.custom_liquid.info"
         }

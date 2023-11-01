@@ -120,3 +120,76 @@
     </div>
   </div>
 </noscript>
+
+
+
+<style>
+  .meta-option{
+    opacity: 0.5;
+  }
+
+  .meta-option:hover{
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .meta-option.selected{
+    opacity: 1;
+    border: 1px solid grey;
+  }
+
+  .meta-option.hide{
+    opacity: 1;
+    border:1px solid red;
+    display: none;
+  }
+
+</style>
+<div class="">
+
+{% for block in section.blocks %}
+
+  {% if block.type == "option" %}
+
+
+    {% assign metafield = block.settings.title %}
+
+
+    
+
+    <h2 style="margin-top: 40px"> {{ block.settings.title_text }}</h2>
+
+    <div class="meta-option-wrap" data-index="{{ forloop.index }}" style="display: flex; gap: 20px">
+      {% for item in product.metafields.options[metafield].value %}
+        {% assign cleanItem = item | json | replace: '"', "'" %}
+
+
+
+        {% assign cleanDependancy = item.dependancy.value | json | replace: '"', "'" %}
+
+
+
+
+        <div class="meta-option"  style="width: 97px; padding: 10px" test data-metafield-value="{{ cleanItem }}" data-metafield-dependancy="{{ cleanDependancy }}">
+          <div class="" style="    height: 118px;
+          width: 77px; display: flex; justify-content: center; align-items:center; background: #80808036">
+            {% if item.image != blank %}
+            <img style="width: 100%; height: 100%; object-fit: contain;" src="{{ item.image | img_url }}" alt="">
+            {% endif %}
+            
+          </div>
+          
+          <p style="margin: 0;">{{ item.option_title }}<br>
+          </p>          
+        </div>
+      {% endfor %}
+    </div>
+
+   
+
+  {% endif %}
+{% endfor %}
+
+</div>
+
+
