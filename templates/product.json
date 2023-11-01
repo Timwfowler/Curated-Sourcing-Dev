@@ -82,6 +82,13 @@
             "title": "logo_style",
             "title_text": "Logo style"
           }
+        },
+        "12cb1990-faa2-4794-8617-9dfdf61e38ec": {
+          "type": "option",
+          "settings": {
+            "title": "logo_size",
+            "title_text": "Logo Size"
+          }
         }
       },
       "block_order": [
@@ -97,7 +104,8 @@
         "91e7dc76-58bb-49da-a2f6-94d3e0516de3",
         "b386883e-0138-46cc-86d5-28eb43a06e9d",
         "2038b1fd-4c33-481f-a284-d473effb07f2",
-        "a9985a52-7d5d-44f4-abad-10d9ea1eea85"
+        "a9985a52-7d5d-44f4-abad-10d9ea1eea85",
+        "12cb1990-faa2-4794-8617-9dfdf61e38ec"
       ],
       "settings": {
         "enable_sticky_info": true,
