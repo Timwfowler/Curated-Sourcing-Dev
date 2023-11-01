@@ -68,6 +68,13 @@
             "title": "main_material_colour",
             "title_text": "Main material colour"
           }
+        },
+        "2038b1fd-4c33-481f-a284-d473effb07f2": {
+          "type": "option",
+          "settings": {
+            "title": "inner_lining_material",
+            "title_text": "Inner lining material"
+          }
         }
       },
       "block_order": [
@@ -81,7 +88,8 @@
         "share",
         "db1d0f91-3c4e-44ff-b13f-ca37c245d962",
         "91e7dc76-58bb-49da-a2f6-94d3e0516de3",
-        "b386883e-0138-46cc-86d5-28eb43a06e9d"
+        "b386883e-0138-46cc-86d5-28eb43a06e9d",
+        "2038b1fd-4c33-481f-a284-d473effb07f2"
       ],
       "settings": {
         "enable_sticky_info": true,
