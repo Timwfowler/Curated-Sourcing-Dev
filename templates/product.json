@@ -75,6 +75,13 @@
             "title": "inner_lining_material",
             "title_text": "Inner lining material"
           }
+        },
+        "a9985a52-7d5d-44f4-abad-10d9ea1eea85": {
+          "type": "option",
+          "settings": {
+            "title": "logo_style",
+            "title_text": "Logo style"
+          }
         }
       },
       "block_order": [
@@ -89,7 +96,8 @@
         "db1d0f91-3c4e-44ff-b13f-ca37c245d962",
         "91e7dc76-58bb-49da-a2f6-94d3e0516de3",
         "b386883e-0138-46cc-86d5-28eb43a06e9d",
-        "2038b1fd-4c33-481f-a284-d473effb07f2"
+        "2038b1fd-4c33-481f-a284-d473effb07f2",
+        "a9985a52-7d5d-44f4-abad-10d9ea1eea85"
       ],
       "settings": {
         "enable_sticky_info": true,
