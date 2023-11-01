@@ -48,6 +48,26 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "db1d0f91-3c4e-44ff-b13f-ca37c245d962": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "91e7dc76-58bb-49da-a2f6-94d3e0516de3": {
+          "type": "option",
+          "settings": {
+            "title": "main_material",
+            "title_text": "Main material"
+          }
+        },
+        "b386883e-0138-46cc-86d5-28eb43a06e9d": {
+          "type": "option",
+          "settings": {
+            "title": "main_material_colour",
+            "title_text": "Main material colour"
+          }
         }
       },
       "block_order": [
@@ -58,7 +78,10 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "db1d0f91-3c4e-44ff-b13f-ca37c245d962",
+        "91e7dc76-58bb-49da-a2f6-94d3e0516de3",
+        "b386883e-0138-46cc-86d5-28eb43a06e9d"
       ],
       "settings": {
         "enable_sticky_info": true,
