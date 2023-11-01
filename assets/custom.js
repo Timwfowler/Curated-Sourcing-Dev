@@ -60,7 +60,7 @@ function checkDependacies(thisMetafieldData, optionWrap) {
         option.classList.add('hide');
         console.log('hide 2');
       }else{
-        // option.classList.remove('hide');
+        // option.classList.remove('hide'); 
       }
     })
 
